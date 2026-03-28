@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 36 35% 98%;
+  --foreground: 145 22% 13%;
+  --card: 0 0% 100%;
+  --card-foreground: 145 22% 13%;
+  --primary: 21 88% 47%;
+  --primary-foreground: 42 100% 98%;
+  --muted: 38 30% 92%;
+  --muted-foreground: 145 8% 37%;
+  --accent: 95 24% 90%;
+  --accent-foreground: 145 27% 20%;
+  --input: 38 23% 88%;
+  --border: 36 18% 84%;
+  --ring: 21 88% 47%;
+  --radius: 1rem;
+}
+
+* {
+  @apply border-border;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-foreground;
+  font-family: "Avenir Next", "Segoe UI Variable", "Segoe UI", ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont, sans-serif;
+  min-height: 100vh;
+}
