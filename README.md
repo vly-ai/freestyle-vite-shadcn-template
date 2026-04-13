@@ -1,4 +1,4 @@
-# Freestyle Vite + shadcn Frontend Template
+# Frontend Only Template
 
 This repo is a minimal frontend starter built with Vite, React, TypeScript, Tailwind, and shadcn/ui.
 

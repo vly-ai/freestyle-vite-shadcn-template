@@ -20,6 +20,13 @@ export default defineConfig({
     cors: {
       origin: allowedOriginPatterns,
     },
+    hmr: {
+      overlay: false,
+    },
+    watch: {
+      usePolling: true,
+      interval: 500,
+    },
   },
   preview: {
     allowedHosts: allowedHostSuffixes,

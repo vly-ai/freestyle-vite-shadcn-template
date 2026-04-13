@@ -28,7 +28,7 @@ export default function App() {
         <header className="flex flex-col gap-4 border-b border-border/70 pb-6 sm:flex-row sm:items-center sm:justify-between">
           <div className="space-y-2">
             <p className="text-xs font-semibold uppercase tracking-[0.28em] text-muted-foreground">
-              Freestyle Template
+              Frontend Only
             </p>
             <h1 className="text-2xl font-semibold tracking-[-0.03em]">
               Vite + React + shadcn
