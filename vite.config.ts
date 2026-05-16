@@ -2,10 +2,10 @@ import path from "node:path";
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 
-const allowedHostSuffixes = [".style.dev", ".decaspeed.dev"];
+const allowedHostSuffixes = [".style.dev", ".grasscoding.com"];
 const allowedOriginPatterns = [
   /^https?:\/\/(?:[a-zA-Z0-9-]+\.)*style\.dev(?::\d+)?$/,
-  /^https?:\/\/(?:[a-zA-Z0-9-]+\.)*decaspeed\.dev(?::\d+)?$/,
+  /^https?:\/\/(?:[a-zA-Z0-9-]+\.)*grasscoding\.com(?::\d+)?$/,
 ];
 
 export default defineConfig({

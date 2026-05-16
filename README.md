@@ -10,7 +10,7 @@ It intentionally does not include:
 - auth flows
 - data fetching scaffolding
 
-What you get instead is a clean single-page starter with a placeholder landing page, a small shadcn setup, and Vite preview settings that work with hosted preview domains under `.style.dev` and `.decaspeed.dev`.
+What you get instead is a clean single-page starter with a placeholder landing page, a small shadcn setup, and Vite preview settings that work with hosted preview domains under `.style.dev` and `.grasscoding.com`.
 
 ## Quick start
 
@@ -38,7 +38,7 @@ pnpm --ignore-workspace dev
 The Vite config explicitly allows hosted requests for:
 
 - `.style.dev`
-- `.decaspeed.dev`
+- `.grasscoding.com`
 
 That applies to both the dev server and `vite preview`.
 

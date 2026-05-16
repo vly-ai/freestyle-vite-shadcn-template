@@ -11,7 +11,7 @@ const featureCards = [
   },
   {
     title: "Hosted preview friendly",
-    description: "The Vite config is prepared for hosted preview domains under style.dev and decaspeed.dev.",
+    description: "The Vite config is prepared for hosted preview domains under style.dev and grasscoding.com.",
   },
 ];
 
